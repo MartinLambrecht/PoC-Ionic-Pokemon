@@ -14,7 +14,7 @@
   </ion-header>
 
   <ion-list *ngIf="pokemons">
-    <ion-item *ngFor="let pokemon of pokemons">
+    <ion-item *ngFor="let pokemon of pokemons" (click)="onPokemonClick(pokemon)">
       <ion-thumbnail slot="start">
         <img alt="{{pokemon.name}}_image" [src]="getImageUrl(pokemon)" />
       </ion-thumbnail>

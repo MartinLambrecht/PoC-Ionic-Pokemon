@@ -1,13 +1,13 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PokemonList } from './pokemon-list.page';
+import { PokemonListPage } from './pokemon-list.page';
 
 describe('Tab1Page', () => {
-  let component: PokemonList;
-  let fixture: ComponentFixture<PokemonList>;
+  let component: PokemonListPage;
+  let fixture: ComponentFixture<PokemonListPage>;
 
   beforeEach(async () => {
-    fixture = TestBed.createComponent(PokemonList);
+    fixture = TestBed.createComponent(PokemonListPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
