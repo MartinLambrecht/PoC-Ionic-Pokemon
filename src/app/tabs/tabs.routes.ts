@@ -9,7 +9,7 @@ export const routes: Routes = [
       {
         path: 'tab1',
         loadComponent: () =>
-          import('../tab1/tab1.page').then((m) => m.Tab1Page),
+          import('../pokemon-list/pokemon-list.page').then((m) => m.PokemonList),
       },
       {
         path: 'tab2',
