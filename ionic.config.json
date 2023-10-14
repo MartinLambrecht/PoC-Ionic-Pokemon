@@ -1,0 +1,7 @@
+{
+  "name": "PoC-Ionic-Pokemon",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
